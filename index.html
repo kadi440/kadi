@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kadiatou</title>
+
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+
+        <p>Mon porte Folio</p>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0"> <!-- Ajout de la classe mx-auto -->
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Expertise</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Dev Mobile</a></li>
+                            <li><a class="dropdown-item" href="#">Dev Web</a></li>
+                            <li><a class="dropdown-item" href="#">DevOps</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projets</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Transport</a></li>
+                            <li><a class="dropdown-item" href="#">Min</a></li>
+                            <li><a class="dropdown-item" href="#">Education</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+
+                <button type="button" class="btn btn-primary">Sigin</button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="overlay border text-white border-light p-4">
+    <div class="container text-center">
+        <h1 class="mb-4 text-white">Introduction au développement web</h1>
+        <p class="m-0"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores voluptate labore vero <br>modi totam, impedit neque commodi hic voluptatum eos! Iusto aliquid esse omnis reiciendis laudantium provident ut maxime perspiciatis.</p>
+    </div>
+</div>
+
+<div id="expertise" class="container mt-5">
+    <h2 class="section-title">Expertise</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <h3 class="mt-3 mb-3">Dev Mobile</h3>
+            <p class="rounded-lg bg-gradient p-3 shadow-lg">Expérience dans le développement d'applications mobiles pour les plateformes iOS et Android.</p>
+        </div>
+        <div class="col-md-4">
+            <h3 class="mt-3 mb-3">Dev Web</h3>
+            <p class="rounded-lg bg-gradient p-3 shadow-lg">Maîtrise des technologies web modernes telles que HTML5, CSS3, JavaScript, et frameworks comme React et Angular.</p>
+        </div>
+        <div class="col-md-4">
+            <h3 class="mt-3 mb-3">DevOps</h3>
+            <p class="rounded-lg bg-gradient p-3 shadow-lg">Compétences dans l'automatisation des déploiements, la gestion des infrastructures cloud et la mise en place de pipelines CI/CD.</p>
+        </div>
+    </div>
+</div>
+
+<div id="projets" class="container mt-5">
+    <h2 class="section-title">Projets</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <h3 class="mt-3 mb-3">Transport</h3>
+            <p class="rounded-lg bg-gradient p-3 shadow-lg">Développement d'une application de suivi des transports en temps réel pour une entreprise de logistique.</p>
+        </div>
+        <div class="col-md-4">
+            <h3 class="mt-3 mb-3">Mine</h3>
+            <p class="rounded-lg bg-gradient p-3 shadow-lg">Création d'une plateforme de gestion des ressources minières pour une société minière internationale.</p>
+        </div>
+        <div class="col-md-4">
+            <h3 class="mt-3 mb-3">Education</h3>
+            <p class="rounded-lg bg-gradient p-3 shadow-lg">Développement d'une plateforme d'apprentissage en ligne pour une institution éducative renommée.</p>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="portfolio" class="container mt-5">
+    <h2 class="section-title">Portefolio</h2>
+    <div class="row">
+
+        <div class="col-md-4">
+            <h3 class="mt-3 mb-3">Gestion du personnel UNC</h3>
+            <p class="rounded-lg bg-gradient p-3 shadow-lg">Une application complète pour la gestion des détenus, du personnel et des ressources dans une prison.</p>
+        </div>
+
+        <div class="col-md-4">
+            <h3 class="mt-3 mb-3">Réseau social</h3>
+            <p class="rounded-lg bg-gradient p-3 shadow-lg">Un réseau social innovant avec des fonctionnalités avancées de partage de contenu, de messagerie et de connexion entre utilisateurs.</p>
+        </div>
+
+        <div class="col-md-4">
+            <h3 class="mt-3 mb-3">Jeu Python</h3>
+            <p class="rounded-lg bg-gradient p-3">Un jeu développé en Python offrant une expérience immersive et divertissante pour les joueurs de tous niveaux.</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="container mt-5">
+    <div class="row">
+
+        <div class="col-md-6">
+            <div class="profile-info">
+                <img src="css/kadi.jpg" height="260" width="260" alt="cs class="img-fluid">
+                <div class="personal-info">
+                    <h3>Information</h3>
+                    <p>Nom: Bah</p>
+                    <p>Prenom: Kadiatou</p>
+                    <p>Email: kad430@gmail.com</p>
+                    <p>Téléphone: 620416440</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="contact-form">
+                <h3>Contactez-moi</h3>
+                <form>
+                    <div class="mb-3">
+                        <label for="nom" class="form-label">Nom</label>
+                        <input type="text" class="form-control" id="nom" placeholder="Votre nom">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Votre email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5" placeholder="Votre message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer  class="footer  bg-dark mt-5 text-white ">
+    <p>&copy; 2024. Tous droits réservés.</p>
+</footer>
+
+<script src="bootstrap.bundle.min.js"></script>
+<script src="nav.js"></script>
+</body>
+</html>
